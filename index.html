@@ -44,12 +44,14 @@
 							<article id="intro">
 								<h2 class="major">Welcome</h2>
 								<blockquote>
-								“For where two or three gather in my name, there am I with them.”  
-								<span>— Matthew 18:20</span>
+								"So that if I am delayed, you will know how people must conduct themselves in the household of God. This is the church of the living God, which is the pillar and foundation of the truth.""  
+								<span>— 1 Timothy 3:15</span>
 								</blockquote>
 								<p>We are a spirit-led church rooted in the truth of Scripture and committed to reflecting God's love in our community and beyond.</p>
 								<p>Join us for worship, teaching, and fellowship as we grow together in faith.</p>
-								<span class="image main"><img src="images/pastor-and-wife-cut.jpg" alt="" /></span>							
+								<span class="image main"><img src="images/pastor-and-wife-cut.jpg" alt="" /></span>		
+								<p>Pastor Berhanu and his wife, Abetu, are dedicated to serving our church family.</p>					
+
 							</article>
 
 						<!-- Work -->
@@ -81,6 +83,10 @@
 							<article id="about">
 								<h2 class="major">About Us</h2>
 								<span class="image main"><img src="images/church-group.png" alt="Church group" /></span>
+								<blockquote>
+								“For where two or three gather in my name, there am I with them.”  
+								<span>— Matthew 18:20</span>
+								</blockquote>
 								<p>We are a spirit-led church rooted in the truth of Scripture and committed to reflecting God's love in our community and beyond.</p>
 								<h3>Our Mission</h3>
 								<p>To glorify God by making disciples of all nations through worship, teaching, and loving service. We believe in building authentic community centered on the Gospel of Jesus Christ.</p>
@@ -98,32 +104,35 @@
 							</article>
 
 						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
+						<article id="contact">
+							<h2 class="major">Contact</h2>
+							<form action="https://api.web3forms.com/submit" method="POST">
+								<input type="hidden" name="access_key" value="5a8147d8-42d5-4f4f-b72c-6cb1a62d6e46">
+								<input type="hidden" name="subject" value="New Message: Church of the Living God Family">
+								
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" required />
 									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
-								<p>523 Clifton Avenue, Darby, PA 19023</p>
-								<p>Email: <a href="mailto:berhanueligo@gmail.com">berhanueligo@gmail.com</a></p>
-								<p>Phone: (919) 885-9087</p>
-							</article>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" required />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4" required></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" class="primary" /></li>
+									<li><input type="reset" value="Reset" /></li>
+								</ul>
+							</form>
+							<p>523 Clifton Avenue, Darby, PA 19023</p>
+							<p>Email: <a href="mailto:berhanueligo@gmail.com">berhanueligo@gmail.com</a></p>
+							<p>Phone: (919) 885-9087</p>
+						</article>
 
 						<!-- Elements -->
 							<article id="elements">

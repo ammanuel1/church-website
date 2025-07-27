@@ -1158,7 +1158,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/cross-banner.png");
+			background-image: url("../../images/cross-blue.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1662,7 +1662,7 @@ input, select, textarea {
 
 /* Invert colors for modal articles */
 #main article {
-    background-color: #ffffffbe !important;
+    background-color: #7f7e7e !important;
     color: #222 !important;
 }
 
@@ -1672,7 +1672,7 @@ input, select, textarea {
 #main article h4,
 #main article h5,
 #main article h6 {
-    color: #222 !important;
+    color: #ffffff !important;
     border-bottom: solid 1px #222;
 }
 
@@ -1680,7 +1680,7 @@ input, select, textarea {
 #main article ul,
 #main article li,
 #main article blockquote {
-    color: #222 !important;
+    color: #ffffff !important;
 }
 
 #main article blockquote {
@@ -1688,7 +1688,7 @@ input, select, textarea {
 }
 
 #main article a {
-    color: #0074d9 !important; /* Optional: blue links */
+    color: #ffffff !important; /* Optional: blue links */
     border-bottom: dotted 1px #0074d9;
 }
 
@@ -1699,22 +1699,22 @@ input, select, textarea {
 
 /* Make contact modal fully white and form fields dark */
 #main article#contact {
-    background: #ffffffbe !important;
-    color: #222 !important;
+    background: #7f7e7e !important;
+    color: #ffffff !important;
     box-shadow: 0 4px 32px rgba(0,0,0,0.08);
 }
 
 #main article#contact h2,
 #main article#contact h3,
 #main article#contact label {
-    color: #222 !important;
+    color: #ffffff !important;
     border-bottom: 1px solid #222 !important;
 }
 
 #main article#contact input,
 #main article#contact textarea {
-    background: #fff !important;
-    color: #222 !important;
+    background: #ffffff !important;
+    color: #ffffff !important;
     border: 1px solid #bbb !important;
 }
 
